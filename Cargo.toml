@@ -4,3 +4,6 @@ version = "0.1.0"
 #edition = "2024"
 rust-version = "1.76.0"
 description = "My first Rust project"
+
+[profile.dev]
+#panic = "abort"
