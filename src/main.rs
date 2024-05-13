@@ -1,7 +1,5 @@
-// use sub_mod_folder::sub_mod::print_hello;
-
-
 use sub_mod_folder::sub_mod::print_hello;
+use sub_mod_folder::sub_tree::sub_tree_fn::sub_tree_test;
 
 mod sub_main;
 mod sub_mod_folder;
@@ -32,6 +30,7 @@ fn main() {
     
     println!("----------------------------------");
     print_hello();
+    sub_tree_test();
 }
 
 fn sum(a: i64, b: i64) -> i64 {
